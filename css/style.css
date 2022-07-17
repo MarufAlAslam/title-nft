@@ -1,0 +1,304 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+html,
+body {
+    background-color: #232946;
+}
+
+.img-fluid.topCircle {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.navv {
+    position: relative;
+    z-index: 100;
+}
+
+.btn {
+    outline: unset !important;
+    box-shadow: unset !important;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+.fs-28 {
+    font-size: 28px;
+}
+
+.fw-6 {
+    font-weight: 600;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.num.fs-20.fw-bold {
+    padding: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.corner {
+    height: 30px;
+    width: 32px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    clip-path: polygon(0% 100%, 100% 100%, 100% 0);
+    /* transform: rotate(138deg); */
+}
+
+.primary {
+    background: #0d6efd !important;
+}
+
+.success {
+    background-color: #198754 !important;
+}
+
+.warning {
+    background-color: #FDAF75;
+}
+
+.danger {
+    background-color: #F24A72;
+}
+
+.fs-40 {
+    font-size: 40px;
+}
+
+.fw-5 {
+    font-weight: 500;
+}
+
+.fs-18 {
+    font-size: 18px;
+}
+
+.text-muted {
+    color: #B8C1EC !important;
+}
+
+.raning.py-5 {
+    background: #1D223A;
+}
+
+.number {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.fw-5 {
+    font-weight: 500;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-30 {
+    font-size: 30px;
+}
+
+.fs-24 {
+    font-size: 24px;
+}
+
+.line {
+    height: 100%;
+    width: 2px;
+    background: #B8C1EC;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.circle {
+    height: 30px !important;
+    width: 30px !important;
+    background: #3267E3;
+    border-radius: 50%;
+    position: absolute;
+    border: 3px solid #B8C1EC;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card.bg-dark {
+    background-color: #1D223A !important;
+}
+
+.form-control.bg-custom.rounded-0 {
+    background: #484D65;
+    border: unset;
+}
+
+.footer2 {
+    background-color: #1D223A !important;
+}
+
+.iconHolder {
+    display: inline-flex;
+    border: 2px solid white;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.bg-dark {
+    background-color: #1D223A !important;
+}
+
+.accordion-item {
+    background: #1D223A !important;
+}
+
+.accordion-button {
+    color: #fff !important;
+    background-color: transparent !important;
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .125);
+}
+
+.accordion-button::after {
+    flex-shrink: 0;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-left: auto;
+    content: "";
+    background-image: url("../img/plus.png");
+    background-repeat: no-repeat;
+    background-size: 1.25rem;
+    transition: transform .2s ease-in-out;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("../img/minus.png");
+    transform: rotate(-180deg);
+}
+
+.accordion-button {
+    outline: unset !important;
+    box-shadow: unset !important;
+}
+
+.modal-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: #1D223A;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: .3rem;
+    outline: 0;
+}
+
+.img-fluid.bannerBg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+
+.items {
+    width: 100% !important;
+}
+
+.items2,
+.items3,
+.items4 {
+    display: none;
+}
+
+.z1 {
+    display: none;
+}
+
+body,
+html {
+    overflow-x: hidden;
+}
+
+td {
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+}
+
+
+
+@media screen and (max-width: 767px) {
+    .banner.p-5 {
+        padding: 15px !important;
+        position: relative;
+        z-index: 10 !important;
+    }
+
+    .banner .d-flex {
+        flex-direction: column;
+    }
+
+    .banner .d-flex .btn {
+        margin: 0 !important;
+        width: 100% !important;
+        margin-top: 15px !important;
+    }
+
+    .banner.p-5 .p-3 {
+        padding: 0 !important;
+        padding-top: 20px !important;
+    }
+
+    .CRONOGRAMA.py-5 .fs-28 {
+        font-size: 16px;
+    }
+
+    .line {
+        display: none;
+    }
+
+    .circle {
+        display: none;
+    }
+
+    .col-md-6.p-5 {
+        padding-top: 0 !important;
+        /* padding-bottom: 0 !important; */
+    }
+
+    .col-md-6.text-end.p-5 {
+        order: 2;
+    }
+
+    .footer.py-2,
+    .footer.py-2 .text-end {
+        text-align: center !important;
+    }
+
+    .img-fluid.bannerBg {
+        opacity: 0.2;
+    }
+}
